@@ -4,7 +4,7 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 
 // Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://rajdhan617:UhGyCjqTMd4b8BeA@cluster0.nskiw9k.mongodb.net/').then(() => {
+mongoose.connect('mongodb+srv://rajdhan617:DdrS5VNiZolff845@cluster0.nskiw9k.mongodb.net/').then(() => {
   console.log('Connected to MongoDB');
 })
   .catch((error) => {
